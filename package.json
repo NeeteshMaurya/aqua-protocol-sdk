@@ -54,7 +54,6 @@
     "test": "tsdx test"
   },
   "typings": "dist/index.d.ts",
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NeeteshMaurya/aqua-protocol-sdk.git"
