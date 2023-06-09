@@ -37,7 +37,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
-  "name": "aqua-protocol-sdk/sdk",
+  "name": "aqua-protocol-sdk",
   "peerDependencies": {
     "@ethersproject/address": "^5.0.0-beta",
     "@ethersproject/contracts": "^5.0.0-beta",
