@@ -37,7 +37,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/sdk.esm.js",
-  "name": "@aqua-protocol/sdk",
+  "name": "aqua-protocol/sdk",
   "peerDependencies": {
     "@ethersproject/address": "^5.0.0-beta",
     "@ethersproject/contracts": "^5.0.0-beta",
@@ -55,7 +55,6 @@
     "url": "git+https://github.com/NeeteshMaurya/aqua-protocol-sdk.git"
   },
   "scripts": {
-    "build": "tsdx build",
     "lint": "tsdx lint src test",
     "prepublishOnly": "tsdx build",
     "start": "tsdx watch",
