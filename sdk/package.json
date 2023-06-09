@@ -56,7 +56,6 @@
   },
   "scripts": {
     "lint": "tsdx lint src test",
-    "prepublishOnly": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test"
   },
