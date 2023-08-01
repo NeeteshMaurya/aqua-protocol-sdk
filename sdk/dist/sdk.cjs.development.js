@@ -21,7 +21,7 @@ var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
   ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
-  ChainId[ChainId["ARBTESTNET"] = 421613] = "ARBTESTNET";
+  ChainId[ChainId["BASEGOERLI"] = 84531] = "BASEGOERLI";
   ChainId[ChainId["BSCTESTNET"] = 97] = "BSCTESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
@@ -36,8 +36,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x5834e71EE6Be7Cc9182f605496f813502aB944db';
-var INIT_CODE_HASH = '0xc72ad7659e98bcf8904606da46540468d866a751d625b87f7cdbf56cc2b595e0';
+var FACTORY_ADDRESS = '0xC2bd16DE313416A96a12D35844F30d8aCC3a186e';
+var INIT_CODE_HASH = '0x2133a10fb6cb4bea08e217f6db87b9741e5dc78b83a05e7e2d216f7fa45ee6c9';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -436,7 +436,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),_WETH[exports.ChainId.ARBTESTNET] = /*#__PURE__*/new Token(exports.ChainId.ARBTESTNET, '0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f', 18, 'WETH', 'Wrapped ETHER'), _WETH[exports.ChainId.BSCTESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSCTESTNET, '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e', 18, 'WBNB', 'Wrapped BNB'), _WETH);
+var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),_WETH[exports.ChainId.BASEGOERLI] = /*#__PURE__*/new Token(exports.ChainId.BASEGOERLI, '0x4200000000000000000000000000000000000006', 18, 'WETH', 'Wrapped ETHER'), _WETH[exports.ChainId.BSCTESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSCTESTNET, '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e', 18, 'WBNB', 'Wrapped BNB'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
